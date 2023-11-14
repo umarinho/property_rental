@@ -24,6 +24,7 @@ body {
 .close {
   margin-left: 509px;
   margin-top: 7px;
+  cursor: pointer;
 }
 
 .ls-button {
@@ -39,6 +40,7 @@ body {
   margin: 0 126px 0 54px;
   font-family: Abel,Arial;
   font-size: 24px;
+  cursor: pointer;
 }
 
 .signup {
@@ -50,6 +52,7 @@ body {
   font-family: Abel,Arial;
   font-size: 24px;
   color: #828282;
+  cursor: pointer;
 }
 
 .line {
@@ -93,6 +96,7 @@ body {
   padding: 10px 140px;
   color: #fff;
   display: inline-block;
+  cursor: pointer;
 }
 
 .line1{
@@ -130,7 +134,8 @@ margin-left: 83px;
   font-size: 15px;
   color: #4F4F4F;
   border-radius: 6px;
-  border: 1px solid lightgrey
+  border: 1px solid lightgrey;
+  cursor: pointer;
 }
 
 .facebook {
@@ -141,6 +146,7 @@ margin-left: 83px;
   font-size: 15px;
   color: #4F4F4F;
   border-radius: 6px;
-  border: 1px solid lightgrey
+  border: 1px solid lightgrey;
+  cursor: pointer;
 }
 

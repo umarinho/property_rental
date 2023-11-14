@@ -37,6 +37,7 @@ body {
  margin-top: 15px;
  margin-left: 100px;
  margin-bottom: 20px;
+ cursor: pointer;
 }
 
 .two {
@@ -48,6 +49,7 @@ body {
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .six {
@@ -68,6 +70,7 @@ body {
   margin-bottom: 300px;
   display: flex;
   position: absolute;
+  cursor: pointer;
 }
 
 .search-bar {
@@ -96,6 +99,7 @@ body {
   font-family: inter, Arial;
   font-size: 20px;
   color: #1E96FC;
+  cursor: pointer;
 }
 
 .featured-see {
@@ -171,6 +175,7 @@ body {
   font-family: inter, Arial;
   font-size: 20px;
   color: #1E96FC;
+  cursor: pointer;
 }
 
 .third-image-section {

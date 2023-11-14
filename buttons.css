@@ -10,6 +10,7 @@
   font-size: 15px;
   margin-top: 15px;
   padding: 11px 35px;
+  cursor: pointer;
 }
 
 .signup-button {
@@ -23,6 +24,7 @@
   font-size: 15px;
   margin-top: 15px;
   padding: 6px 28px;
+  cursor: pointer;
 
 }
 
@@ -41,6 +43,7 @@
   position: absolute;
   margin-right:  100px;
   margin-top: 25px;
+  cursor: pointer;
 }
 
 .unlock-button {
@@ -57,6 +60,7 @@
   padding: 10px 55px;
   color: #fff;
   display: inline-block;
+  cursor: pointer;
 }
 
 .list-property-button2 {
@@ -71,4 +75,5 @@
   font-size: 15px;
   margin: 100px 0 100px 860px;
   padding: 11px 35px;
+  cursor: pointer;
 }

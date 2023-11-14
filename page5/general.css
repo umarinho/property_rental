@@ -7,11 +7,13 @@ body {
 .nav-about {
   font-family: Inter, Arial;
   color: #BDBDBD ;
+  cursor: pointer;
 }
 
 .nav-help {
   font-family: Inter, Arial;
   color: #BDBDBD ;
+  cursor: pointer;
 }
 
 .navbar-section {
@@ -26,8 +28,13 @@ body {
   
 }
 
+.heart {
+  cursor: pointer;
+}
+
 .nav-logo {
   margin-left: 145px;
+  cursor: pointer;
 }
 
 .search-bar {
@@ -45,6 +52,7 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .list-property-button {
@@ -61,6 +69,7 @@ body {
   padding: 11px 35px;
   color: #072AC8;
   flex: 1;
+  cursor: pointer;
   }
 
   .label {
@@ -189,6 +198,7 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 12px;
+  cursor: pointer;
   }
 
   .bold {
@@ -301,6 +311,7 @@ body {
   padding: 10px 140px;
   color: #fff;
   display: inline-block;
+  cursor: pointer;
 }
 
 .be-the-first-section {
@@ -354,6 +365,7 @@ body {
   padding: 10px 55px;
   color: #fff;
   display: inline-block;
+  cursor: pointer;
 }
 
 .list-property-button2 {
@@ -368,6 +380,7 @@ body {
   font-size: 15px;
   margin: 100px 626px 60px 627px;
   padding: 11px 35px;
+  cursor: pointer;
 }
 
 
