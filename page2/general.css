@@ -1,0 +1,289 @@
+body {
+  margin: 0;
+  background-color: #F2F2F2;
+  font-family: Inter, Arial;
+}
+.nav-about {
+  font-family: Inter, Arial;
+  color: #BDBDBD ;
+}
+
+.nav-help {
+  font-family: Inter, Arial;
+  color: #BDBDBD ;
+}
+
+.navbar-section {
+  font-family: Inter, Arial;
+  padding: 10px;
+  border-style: none;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.nav-logo {
+  margin-left: 145px;
+}
+
+.search-bar {
+  border-radius: 8px;
+  border: 1px solid gray ;
+  font-family: Inter;
+  font-size: 15px;
+  padding: 10px;
+  padding-right: 100px;
+  flex: 1;
+}
+
+.bavbar-user {
+  margin-right: 100px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.later {
+  font-family: Inter, Arial;
+  padding: 13px 465px 12px 465px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  background-color: white;
+}
+
+.price-list {
+  background-color: white;
+  padding: 10px;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 1px;
+  color: #828282;
+  border-color: #828282;
+  margin-right: 18px;
+}
+
+.bed {
+  background-color: #1E96FC;
+  padding: 10px;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 1px;
+  color: #828282;
+  border-color: #828282;
+  margin-right: 18px;
+}
+
+.propety {
+  background-color: white;
+  padding: 10px;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 1px;
+  color: #828282;
+  border-color: #828282;
+  margin-right: 80px;
+}
+
+.sortby {
+  border-radius: 6px;
+  border-style: hidden;
+  border-width: 1px;
+  color: #828282;
+}
+
+.a {
+  font-weight: bold;
+  margin: 0;
+  padding-top: 12px;
+  letter-spacing: 0.04cm;
+}
+
+.b {
+  font-size: 15px;
+  margin: 0;
+  padding-top: 2px;
+  padding-bottom: 15px;
+  color: #4F4F4F;
+
+}
+
+.c {
+  margin: 0;
+  font-size: 10px;
+  padding-bottom: 10px;
+  color: #828282;
+  display: inline-block;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  font-family: Inter, Arial;
+  background-color: white;
+  min-height: 258px ;
+
+}
+
+.card-image {
+  
+  background-repeat: no-repeat;
+  flex: 2;
+  background-size: cover;
+}
+
+.image1 {
+  background-image: url("./images/image1.png");
+  
+}
+
+.image2 {
+  background-image: url("./images/image2.png");
+}
+.image3 {
+  background-image: url("./images/image3.png");
+}
+.image4 {
+  background-image: url("./images/image4.png");
+}
+.image5 {
+  background-image: url("./images/image5.png");
+}
+
+.down-text{
+  padding-left: 10px;
+  flex: 1;
+}
+
+.image-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 70px;
+  padding: 50px 180px 60px 180px;
+}
+
+.page-nav {
+  margin: 0 485px 0 485px;
+  background-color: white;
+}
+
+.page-nav-text {
+  margin-top: 0;
+  color: #828282;
+}
+
+.page-nav-num {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5px;
+  align-items: center;
+  
+}
+
+.a1,.b1,.c1,.d,.e,.f,.g,.h {
+  margin: 0;
+}
+.h {
+  margin-left: 70px;
+}
+.a1,.b1,.c1,.d,.e,.f,.g {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.browse-see {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+}
+
+.browse-hostel {
+  font-family: Abel;
+  font-size: 38px;
+  margin-left: 110px;
+  margin-top: 60px;
+}
+.see-all2 {
+  margin-top: 60px;
+  margin-right: 180px;
+  font-family: inter, Arial;
+  font-size: 20px;
+  color: #1E96FC;
+}
+
+.be-the-first-section {
+  background-color: #1E96FC;
+  margin-top: 60px;
+}
+
+.be-the-first-text {
+  font-family: Abel;
+  font-size: 27px;
+  color: #fff;
+  margin-left: 500px;
+  margin-top: 100px;
+}
+
+.input-email {
+  margin-left: 500px;
+  padding: 15px;
+  padding-right: 200px;
+  font-size: 15px;
+  border: 1px solid gray ;
+  border-radius: 8px;
+}
+
+.light-design {
+  display: flex;
+}
+
+.light-design2 {
+  display: flex;
+  align-items: end;
+  justify-content: right;
+  padding-top: 100px;
+}
+
+.light6 {
+  margin-bottom: 0px;
+}
+
+.text1 {
+  display: inline-block;
+  font-family: Inter, Arial;
+  font-size: 12px;
+  color: #1E96FC;
+
+}
+
+.t, .top {
+  padding-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 120px;
+
+  
+}
+.last-section {
+display: flex;
+justify-content: center;
+ 
+}
+
+.top {
+  font-weight: 600;
+  color: #000;
+}
+
+.last-text {
+  font-family: Inter, Arial;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  
+  margin: 100px 130px 50px 0;
+}

@@ -1,0 +1,373 @@
+body {
+  background-color: #F2F2F2;
+  margin: 0;
+  font-family: Inter, Arial;
+}
+
+.nav-about {
+  font-family: Inter, Arial;
+  color: #BDBDBD ;
+}
+
+.nav-help {
+  font-family: Inter, Arial;
+  color: #BDBDBD ;
+}
+
+.navbar-section {
+  font-family: Inter, Arial;
+  padding: 10px;
+  border-style: none;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.nav-logo {
+  margin-left: 145px;
+}
+
+.search-bar {
+  border-radius: 8px;
+  border: 1px solid gray ;
+  font-family: Inter;
+  font-size: 15px;
+  padding: 10px;
+  padding-right: 100px;
+  flex: 1;
+}
+
+.bavbar-user {
+  margin-right: 100px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.list-property-button {
+  font-weight: 600;
+  font-family: Inter;
+  background-color: white;
+  border: 1px;
+  border-radius: 5px;
+  border-color: #072AC8;
+  border-style: solid;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0 0 0 200px;
+  padding: 11px 35px;
+  color: #072AC8;
+  flex: 1;
+  }
+
+  .second-section {
+    margin-left: 146px;
+    margin-top: 67px;
+    width: 797px;
+    display: flex;
+  }
+
+  .container1 {
+    margin-right: 62px;
+    background-color: white;
+  }
+
+  .all-text {
+    margin-left: 15px;
+  }
+
+  .autumn {
+    font-weight: 700;
+    letter-spacing: 0.04cm;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    
+  }
+
+  .price {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    color: #4F4F4F;
+  }
+
+  .address {
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #828282;
+  }
+
+  .description {
+    margin-top: 0;
+    font-size: 12px;
+  }
+
+  .adult {
+    margin-top: 10px;
+    margin-left: 146px;
+    display: inline-block;
+    font-size: 12px;
+  }
+
+  .three {
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-right: 374px;
+    border-style: solid;
+    border-width: 0.15;
+    border-color: #828282;
+  }
+
+  .both {
+    display: flex;
+    align-items: end;
+  }
+
+  .perks {
+    font-family: Abel, Arial;
+    font-size: 17px;
+  }
+  .first-line {
+    display: flex;
+  }
+
+  .date {
+    display: flex;
+  }
+
+  .time {
+    display: flex;
+  }
+
+  .all {
+    background-color: white;
+    margin: 30px 100px 0 146px;
+    width: 335px;
+
+  }
+
+  .in {
+    margin: 20px 36px 30px 37px;
+  }
+
+  .out {
+    margin-top: 20px;
+    margin-left: 36px;
+  }
+
+  .days {
+    margin-top: 20px;
+  }
+
+  .wed {
+    margin: 0 36px 15px 13px;
+    font-weight: bold;
+  }
+
+  .sat {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+
+  .time-12 {
+    margin: 0 105px 5px 74px;
+    font-size: 10px;
+  }
+
+  .time-1 {
+    font-size: 10px;
+  }
+
+  .perk {
+   display: flex;
+   align-items: end;
+  }
+
+  .find-rooms {
+    font-weight: 600;
+    font-family: Inter;
+    background-color: #072AC8;
+    border-style: solid;
+    border-color: #072AC8;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 28px;
+    margin-left: 146px;
+    padding: 10px 55px;
+    color: #fff;
+    display: inline-block;
+    letter-spacing: 0.30;
+    cursor: pointer;
+  }
+
+  .nearby-see {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 263px;
+  }
+
+  .nearby-hostels {
+    font-family: Abel;
+    font-size: 22px;
+    margin-left: 146px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .see-all {
+    margin-top: 50px;
+    font-family: inter, Arial;
+    font-size: 15px;
+    color: #1E96FC;
+  }
+
+  .second-image-section {
+    margin-left: 146px;
+    margin-right: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .second-image-section1 {
+    background-color: white;
+    border-radius: 6px;
+    display: inline-block;
+    margin-right: 40px;
+    width: 170px;
+  }
+
+  .hotel-name {
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-left: 10px;
+  }
+
+  .location {
+    font-size: 12px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    color: #828282;
+  }
+
+  .price {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .image {
+    width: 170px;
+  }
+
+  .be-the-first-section {
+    background-color: #1E96FC;
+    margin-top: 60px;
+  }
+
+  .be-the-first-text {
+    font-family: Abel;
+    font-size: 27px;
+    color: #fff;
+    margin-left: 500px;
+    margin-top: 100px;
+  }
+
+  .input-email {
+    margin-left: 500px;
+    padding: 15px;
+    padding-right: 200px;
+    font-size: 15px;
+    border: 1px solid gray ;
+    border-radius: 8px;
+  }
+
+  .light-design {
+    display: flex;
+  }
+
+  .light-design2 {
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    padding-top: 100px;
+  }
+
+  .light6 {
+    margin-bottom: 0px;
+  }
+
+  .unlock-button {
+    font-weight: 600;
+    font-family: Inter;
+    background-color: #072AC8;
+    border-style: solid;
+    border-color: #072AC8;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 500px;
+    padding: 10px 55px;
+    color: #fff;
+    display: inline-block;
+  }
+
+  .list-property-button2 {
+    font-weight: 600;
+    font-family: Inter;
+    background-color: white;
+    border: 1px;
+    border-radius: 5px;
+    border-color: #072AC8;
+    border-style: solid;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 100px 626px 60px 627px;
+    padding: 11px 35px;
+  }
+  
+
+  .text1 {
+    display: inline-block;
+    font-family: Inter, Arial;
+    font-size: 12px;
+    color: #1E96FC;
+  
+  }
+  
+  .t, .top {
+    padding-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 120px;
+  
+    
+  }
+  .last-section {
+  display: flex;
+  justify-content: center;
+   
+  }
+  
+  .top {
+    font-weight: 600;
+    color: #000;
+  }
+  
+  .last-text {
+    font-family: Inter, Arial;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    
+    margin: 100px 130px 50px 0;
+  }
+  

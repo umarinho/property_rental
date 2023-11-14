@@ -1,0 +1,409 @@
+body {
+  background-color: #F2F2F2;
+  margin: 0;
+  font-family: Inter, Arial;
+}
+
+.nav-about {
+  font-family: Inter, Arial;
+  color: #BDBDBD ;
+}
+
+.nav-help {
+  font-family: Inter, Arial;
+  color: #BDBDBD ;
+}
+
+.navbar-section {
+  font-family: Inter, Arial;
+  padding: 10px;
+  border-style: none;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.nav-logo {
+  margin-left: 145px;
+}
+
+.search-bar {
+  border-radius: 8px;
+  border: 1px solid gray ;
+  font-family: Inter;
+  font-size: 15px;
+  padding: 10px;
+  padding-right: 100px;
+  flex: 1;
+}
+
+.bavbar-user {
+  margin-right: 100px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.list-property-button {
+  font-weight: 600;
+  font-family: Inter;
+  background-color: white;
+  border: 1px;
+  border-radius: 5px;
+  border-color: #072AC8;
+  border-style: solid;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0 0 0 200px;
+  padding: 11px 35px;
+  color: #072AC8;
+  flex: 1;
+  }
+
+  .label {
+    margin-left: 147px;
+    margin-top: 74px;
+    font-size: 15px;
+  }
+
+  .page-img {
+    margin-left: 147px;
+    margin-right: 23px;
+    height: 475px;
+  }
+
+  .first-line {
+    display: flex;
+  }
+
+  .date {
+    display: flex;
+  }
+
+  .time {
+    display: flex;
+  }
+
+  .all {
+    background-color: white;
+    width: 335px;
+    height: 122px;
+    margin-bottom: 30px;
+  }
+
+  .in {
+    margin: 20px 36px 30px 37px;
+  }
+
+  .out {
+    margin-top: 20px;
+    margin-left: 36px;
+  }
+
+  .days {
+    margin-top: 20px;
+  }
+
+  .wed {
+    margin: 0 36px 15px 13px;
+    font-weight: bold;
+  }
+
+  .sat {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+
+  .time-12 {
+    margin: 0 105px 5px 74px;
+    font-size: 10px;
+  }
+
+  .time-1 {
+    font-size: 10px;
+  }
+  
+  .neww {
+    display: flex;
+  }
+
+  .total-payment {
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    padding-top: 20px;
+
+  }
+
+  .summary {
+    margin-bottom: 15px;
+    margin-left: 21px;
+  }
+
+  .pay-option {
+    margin-left: 77px;
+    margin-bottom: 25px;
+  }
+
+  .number-room {
+   margin-left: 92px;
+  }
+
+  .three {
+   width: 65px;
+   margin-left: 92px;
+    border-radius: 8px;
+    padding: 10px 25px;
+    border-style: solid;
+    border-width: 0.15;
+  }
+
+  .head-total {
+    display: flex;
+    margin-left: 108px;
+    margin-top: 15px;
+  }
+
+  .vat-total {
+    display: flex;
+    margin-left: 108px;
+  }
+
+  .qty {
+    margin-right: 70px;
+    margin-bottom: 25px;
+  }
+  .vat-percent {
+    margin-right: 70px;
+  }
+
+  .Subtotal {
+    background-color: black;
+    color: white;
+    margin-top: 25px;
+    padding-left: 153px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 12px;
+  }
+
+  .bold {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .card-section {
+    width: 680px;
+    height: 376px;
+    padding-top: 15px;
+    background-color: white;
+    margin-left: 380px;
+    margin-top: 89px;
+    border-radius: 8px;
+  }
+
+  .debit {
+    margin-left: 36px;
+    font-family: Abel, Arial;
+    font-size: 17px;
+  }
+
+  .visa-master {
+    display: flex;
+    align-items: start;
+    margin-left: 36px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    gap: 8px;
+  }
+
+  .card-label {
+    display: flex;
+    margin-left: 18px;
+  }
+
+  .card-num {
+    margin-right: 360px;
+    font-size: 12px;
+  }
+
+  .cvv {
+    font-size: 12px;
+
+  }
+
+  .card-input {
+    width: 400px;
+    border-radius: 8px;
+    border: 1px solid gray ;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 18px;
+    margin-right: 20px;
+    margin-bottom: 8px;
+  }
+
+  .cvv-input{
+    width: 206px;
+    border-radius: 8px;
+    border: 1px solid gray ;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .month-year {
+    margin-left: 18px;
+    font-size: 12px;
+
+  }
+
+  .month-year1 {
+    width: 400px;
+    border-radius: 8px;
+    border: 1px solid gray ;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 18px;
+    margin-right: 32px;
+    margin-bottom: 8px;
+  }
+
+  .card-hoder-name {
+    margin-left: 18px;
+    font-size: 12px;
+
+  }
+
+  .card-hoder-name1 {
+    width: 630px;
+    border-radius: 8px;
+    border: 1px solid gray ;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 18px;
+    margin-right: 32px;
+  }
+
+.pay {
+  font-weight: 600;
+  font-family: Inter;
+  background-color: #072AC8;
+  border-style: solid;
+  border-color: #072AC8;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 15px 0 16px 165px;
+  padding: 10px 140px;
+  color: #fff;
+  display: inline-block;
+}
+
+.be-the-first-section {
+  background-color: #1E96FC;
+  margin-top: 60px;
+}
+
+.be-the-first-text {
+  font-family: Abel;
+  font-size: 27px;
+  color: #fff;
+  margin-left: 500px;
+  margin-top: 100px;
+}
+
+.input-email {
+  margin-left: 500px;
+  padding: 15px;
+  padding-right: 200px;
+  font-size: 15px;
+  border: 1px solid gray ;
+  border-radius: 8px;
+}
+
+.light-design {
+  display: flex;
+}
+
+.light-design2 {
+  display: flex;
+  align-items: end;
+  justify-content: right;
+  padding-top: 100px;
+}
+
+.light6 {
+  margin-bottom: 0px;
+}
+
+.unlock-button {
+  font-weight: 600;
+  font-family: Inter;
+  background-color: #072AC8;
+  border-style: solid;
+  border-color: #072AC8;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 500px;
+  padding: 10px 55px;
+  color: #fff;
+  display: inline-block;
+}
+
+.list-property-button2 {
+  font-weight: 600;
+  font-family: Inter;
+  background-color: white;
+  border: 1px;
+  border-radius: 5px;
+  border-color: #072AC8;
+  border-style: solid;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 100px 626px 60px 627px;
+  padding: 11px 35px;
+}
+
+
+.text1 {
+  display: inline-block;
+  font-family: Inter, Arial;
+  font-size: 12px;
+  color: #1E96FC;
+
+}
+
+.t, .top {
+  padding-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 120px;
+
+  
+}
+.last-section {
+display: flex;
+justify-content: center;
+ 
+}
+
+.top {
+  font-weight: 600;
+  color: #000;
+}
+
+.last-text {
+  font-family: Inter, Arial;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  
+  margin: 100px 130px 50px 0;
+}
+
+

@@ -1,0 +1,45 @@
+.list-property-button {
+font-weight: 600;
+font-family: Inter;
+background-color: white;
+border: 1px;
+border-radius: 5px;
+border-color: #072AC8;
+border-style: solid;
+font-weight: bold;
+font-size: 15px;
+margin: 0 0 0 200px;
+padding: 11px 35px;
+color: #072AC8;
+flex: 1;
+}
+
+.unlock-button {
+  font-weight: 600;
+  font-family: Inter;
+  background-color: #072AC8;
+  border-style: solid;
+  border-color: #072AC8;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 500px;
+  padding: 10px 55px;
+  color: #fff;
+  display: inline-block;
+}
+
+.list-property-button2 {
+  font-weight: 600;
+  font-family: Inter;
+  background-color: white;
+  border: 1px;
+  border-radius: 5px;
+  border-color: #072AC8;
+  border-style: solid;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 100px 626px 60px 627px;
+  padding: 11px 35px;
+}

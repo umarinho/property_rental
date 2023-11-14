@@ -1,0 +1,104 @@
+body {
+  font-family: Inter, Arial;
+}
+
+.momo-section {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  margin-left: 146px;
+  margin-top: 146px;
+  background-color: white;
+  width: 680px;
+  height: 376px;
+
+}
+
+.mom-details {
+  font-family: Abel, Arial ;
+  font-size: 17px;
+  margin-left: 36px;
+  margin-bottom: 10px;
+  padding-top: 25px;
+}
+
+.net-logo {
+  margin-left: 36px;
+  margin-bottom: 30px;
+}
+
+.name-net {
+  display: flex;
+}
+
+.full-name {
+  margin-left: 16px;
+  margin-right: 348px;
+  font-size: 12px;
+}
+
+.network {
+  font-size: 12px;
+
+}
+
+.name {
+  width: 333px;
+  border-radius: 8px;
+  border: 1px solid gray ;
+  font-family: Inter;
+  font-size: 15px;
+  padding: 10px;
+  padding-left: 30px;
+  margin: 0 60px 0 16px;
+}
+
+.network1 {
+  width: 206px;
+  border-radius: 10px;
+  border: 1px solid gray ;
+  font-family: Inter;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.number {
+  width: 300px;
+  border-radius: 8px;
+  border: 1px solid gray ;
+  font-family: Inter;
+  font-size: 15px;
+  padding: 10px;
+  padding-left: 30px;
+  margin-right: 20px;
+  margin-left: 198px;
+  margin-bottom: 40px;
+}
+
+.momo-num {
+  margin-top: 20px;
+  margin-left: 198px;
+  font-size: 12px;
+}
+
+.insert {
+  font-family: Abel, Arial;
+  margin-left: 17px;
+  font-size: 17px;
+}
+
+.pay {
+  font-weight: 600;
+  font-family: Inter;
+  background-color: #072AC8;
+  border-style: solid;
+  border-color: #072AC8;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0 0 16px 165px;
+  padding: 10px 140px;
+  color: #fff;
+  display: inline-block;
+  cursor: pointer;
+}

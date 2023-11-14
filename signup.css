@@ -1,0 +1,171 @@
+body {
+  font-family: Inter, Arial;
+  background-color: lightblue;
+}
+
+.main {
+  min-width: 98vw;
+  min-height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+
+.general {
+  border-radius: 8px;
+  background-color:#F2F2F2;
+  width: 550px;
+  height: 550px;
+}
+
+.close {
+  margin-left: 509px;
+  margin-top: 7px;
+}
+
+.ls-button {
+  display: flex;
+}
+
+.info {
+  font-size: 10px;
+  margin-left: 139px;
+  margin-right: 120px;
+}
+
+.terms,.policy {
+  color: #1E96FC;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 30px;
+  margin: 0 126px 0 54px;
+  font-family: Abel,Arial;
+  font-size: 24px;
+  color: #828282;
+}
+
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 30px;
+  font-family: Abel,Arial;
+  font-size: 24px;
+}
+
+.line {
+  margin-top: 6px;
+  width: 550px;
+  height: 0;
+  border: 1px solid lightgrey;
+}
+
+.full-name {
+  font-size: 12px;
+  margin-left: 100px;
+  margin-top: 25px;
+}
+
+.name-input {
+  width: 343px;
+  height: 42px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-left: 100px;
+  padding-left: 20px;
+
+}
+
+.email {
+  font-size: 12px;
+  margin-left: 100px;
+  margin-top: 5px;
+}
+
+.password {
+  font-size: 12px;
+  margin-left: 100px;
+  margin-top: 5px;
+}
+
+.email-input, .pass-input {
+  width: 343px;
+  height: 42px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-left: 100px;
+  padding-left: 20px;
+}
+
+.letsgo {
+  font-weight: 600;
+  font-family: Inter;
+  background-color: #072AC8;
+  border-style: solid;
+  border-color: #072AC8;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 20px 0 10px 100px;
+  padding: 10px 128px;
+  color: #fff;
+  display: inline-block;
+}
+
+.line1{
+  margin-top: 6px;
+  margin-right: 27px;
+  width: 150px;
+  height: 0;
+  border: 1px solid lightgrey;
+}
+
+.or {
+  font-size: 12px;
+  color: #4F4F4F;
+  margin-right: 24px;
+}
+
+.line2{
+  margin-top: 6px;
+  width: 150px;
+  height: 0;
+  border: 1px solid lightgrey;
+}
+
+.lineor{
+  display: flex;
+margin-left: 83px;
+}
+
+.google {
+  display: flex;
+  align-items: center;
+  padding-left: 54px;
+  padding-right: 48px;
+  margin: 10px 0 20px 130px;
+  font-size: 15px;
+  color: #4F4F4F;
+  border-radius: 6px;
+  border: 1px solid lightgrey
+}
+
+.facebook {
+  display: flex;
+  align-items: center;
+  padding: 8px 45px 8px 47px;
+  margin-left: 130px;
+  font-size: 15px;
+  color: #4F4F4F;
+  border-radius: 6px;
+  border: 1px solid lightgrey
+}
+

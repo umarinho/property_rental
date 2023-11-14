@@ -1,0 +1,33 @@
+.text1 {
+  display: inline-block;
+  font-family: Inter, Arial;
+  font-size: 20px;
+color: #1E96FC;
+
+}
+
+.t, .top {
+  padding-bottom: 30px;
+  margin-left: 200px;
+  
+}
+.last-section {
+  padding-right: 400px;
+display: flex;
+justify-content: center;
+ 
+}
+
+.top {
+  font-weight: 600;
+  color: #000;
+}
+
+.last-text {
+  font-family: Inter, Arial;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-right: 130px;
+}
