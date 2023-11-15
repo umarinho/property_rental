@@ -5,6 +5,7 @@ body {
 }
 
 .header {
+  padding-top: 10px;
   background-color: #fff;
   display: flex;
   flex-direction: row;
@@ -30,8 +31,12 @@ body {
 .cover-image {
   display: flex;
   margin: 0;
-  
 }
+
+@media (min-width: 751px) and (max-width:999px) {
+  .cover-image { width: auto;}
+}
+
 .one {
  flex: 1;
  margin-top: 15px;
@@ -42,7 +47,7 @@ body {
 
 .two {
  color: #072AC8;
-  margin: 7px 25px;
+  
 }
 
 .three, .four, .five {
@@ -144,7 +149,25 @@ body {
   margin-left: 110px;
   margin-right: 200px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+ 
+}
+
+@media (max-width: 750px) {
+  .second-image-section {
+    grid-template-columns: 1fr 1fr;
+  }
+  }
+
+  @media (min-width: 751px) and (max-width:999px) {
+    .second-image-section {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .second-image-section {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
 }
 
 .second-image-section1 {
@@ -220,7 +243,14 @@ justify-content: space-between;
 .be-the-first-section {
   background-color: #1E96FC;
   margin-top: 60px;
- 
+}
+
+@media (min-width: 751px) and (max-width:999px){
+  .be-the-first-section{ width:75%}
+}
+
+@media (max-width: 750px){
+  .be-the-first-section { width: 50%;}
   
 }
 
