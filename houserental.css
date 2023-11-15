@@ -25,7 +25,8 @@ body {
 
 .new-div {
   display: flex;
- align-items: center;
+  align-items: center;
+  width: auto;
 }
 
 .cover-image {
@@ -38,7 +39,7 @@ body {
 }
 
 @media (max-width:999px) {
-  .cover-img { width: fit-content; }
+  .cover-img { width: 100%; }
 }
 
 .one {
@@ -70,11 +71,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: auto;
 }
 
 .discover-text {
   font-family: Abel, Arial;
-  font-size: 55px;
+  font-size: 3vw;
   margin-left: 150px;
   margin-bottom: 300px;
   display: flex;
@@ -94,7 +96,7 @@ body {
   padding-right: 200px;
   display: flex;
   position: absolute;
-  flex: 1;
+  
 }
 
 .featured-locations {
@@ -117,6 +119,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-right: 100px;
+  flex: 1;
 }
 
 .hotel-name {
@@ -153,9 +156,7 @@ body {
 
 .second-image-section {
   margin-left: 110px;
-  
   display: grid;
- 
 }
 
 @media (max-width: 750px) {
@@ -184,13 +185,14 @@ body {
 }
 
 .image {
-  width: 170px;
+  width: 100%;
 }
 
 .browse-see {
   display: flex;
   justify-content: space-between;
   margin-right: 100px;
+  flex :auto;
 }
 .browse-hostel {
   font-family: Abel;
@@ -209,8 +211,28 @@ body {
 
 .third-image-section {
   margin-left: 110px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+@media (max-width: 750px) {
+  .third-image-section {
+    grid-template-columns: 1fr;
+  }
+  }
+
+  @media (min-width: 751px) and (max-width:999px) {
+    .third-image-section {
+      grid-template-columns: 1fr 1fr ;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .third-image-section {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
 
 .third-image-section1 {
   background-color: white;
