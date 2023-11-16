@@ -102,8 +102,14 @@
   border-color: #072AC8;
   border-style: solid;
   font-weight: bold;
-  font-size: 15px;
-  margin: 100px 0 100px 860px;
+  font-size: 16px;
+  margin: 6.25em 0 6.25em 53.75em;
   padding: 11px 35px;
   cursor: pointer;
 }
+
+@media (max-width: 752px) {
+  .list-property-button2 {
+    margin-left: 6.25em ;
+  }
+  }

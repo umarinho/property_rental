@@ -176,13 +176,14 @@ body {
   }
 
   @media (max-width: 752px) {
-    .second-image-section, .featured-locations {
-    margin-left: 0 ;
+    .second-image-section, .featured-locations, .browse-hostel {
+    margin-left: 0.8em;
   }
   }
 
   @media (max-width: 752px) {
-   .featured-locations, .see-all {
+   .featured-locations, .see-all, 
+   .see-all2 {
     margin-right: 2em ;
   }
   }
