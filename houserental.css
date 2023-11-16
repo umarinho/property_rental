@@ -2,7 +2,6 @@ body {
   font-size: 16px;
   margin: 0;
   background-color: #F2F2F2;
-  margin-bottom: 500px;
 }
 
 .header {
@@ -154,13 +153,14 @@ body {
 
 @media (min-width: 751px) {
   .second-image-section {
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+
   }
 }
 
 @media (max-width: 752px) {
   .second-image-section {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
   }
   }
 
