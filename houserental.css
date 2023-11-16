@@ -83,9 +83,7 @@ body {
   border-radius: 8px;
   border: 1px solid gray ;
   font-family: Inter;
-  
   padding: 1em 13em 1em 2em;
-  
   display: flex;
   position: absolute;
   
@@ -174,20 +172,7 @@ body {
     grid-template-columns: 1fr 1fr ;
   }
   }
-
-  @media (max-width: 752px) {
-    .second-image-section, .featured-locations, .browse-hostel {
-    margin-left: 0.8em;
-  }
-  }
-
-  @media (max-width: 752px) {
-   .featured-locations, .see-all, 
-   .see-all2 {
-    margin-right: 2em ;
-  }
-  }
-
+ 
 .second-image-section1 {
   display: inline-block;
  margin-right: 3.4em;
@@ -207,9 +192,9 @@ body {
 }
 .browse-hostel {
   font-family: Abel;
-  font-size: 38px;
-  margin-left: 110px;
-  margin-top: 60px;
+  font-size: 32px;
+  margin-left: 3.44em;
+  margin-top: 1.875em;
 }
 .see-all2 {
   margin-top: 60px;
@@ -309,5 +294,25 @@ justify-content: space-between;
   font-size: 15px;
   border: 1px solid gray ;
   border-radius: 8px;
+}
+
+@media (max-width: 752px) {
+   {
+   margin-right: 2em ;
+ }
+ }
+
+ @media (max-width: 752px) {
+  .featured-locations, .see-all,
+   .see-all2, .browse-see, .featured-see {
+   margin-right: 2em ;
+ }
+ }
+
+ @media (max-width: 752px) {
+  .second-image-section, .featured-locations,
+  .browse-hostel, .third-image-section {
+  margin-left: 0.8em;
+}
 }
 
