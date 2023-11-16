@@ -1,11 +1,12 @@
 .navbar-mobi {
   background-color: white;
   position: fixed;
- 
-  z-index:auto;
   width: 100%;
-  height: 5%;
   bottom: 0;
+}
+ 
+.mobi-bg-image {
+
 }
 
 .navbar-mobi-items {
@@ -35,3 +36,13 @@
 @media (min-width: 769px) {
   .navbar-mobi { display: none;}
 }
+
+@media (max-width: 768px) {
+  .cover-img { display: none;}
+}
+
+
+@media (min-width: 769px) {
+  .mobi-bg-image { display: none;}
+}
+
