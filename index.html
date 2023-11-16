@@ -3,6 +3,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="navbar.css" />
     <link rel="stylesheet" href="houserental.css" />
     <link rel="stylesheet" href="buttons.css" />
     <link rel="stylesheet" href="light.css" />
@@ -26,16 +27,9 @@
       href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap-grid.css" />
-    <link
-      rel="stylesheet"
-      href="bootstrap-4.6.2-dist/css/bootstrap-grid.min.css"
-    />
   </head>
   <body>
-    <div class="header">
+    <nav class="header">
       <div class="one"><img src="image/primary.svg" /></div>
       <div class="together">
         <button class="list-property-button">
@@ -47,10 +41,21 @@
         <a href="signup.html">
           <button class="signup-button">
             <div class="six">Signup</div>
-          </button></a
-        >
+          </button>
+        </a>
       </div>
-    </div>
+    </nav>
+    <nav class="main-nav">
+      <div class="logo"><img src="image/primary.svg" /></div>
+      <div class="nav-items-container">
+        <a class="nav-item btn-outline">List Property</a>
+
+        <a class="nav-item">About</a>
+        <a class="nav-item">Help</a>
+        <a class="nav-item" href="/login.html">Login</a>
+        <a class="nav-item btn-primary" href="signup.html"> Signup</a>
+      </div>
+    </nav>
     <div class="cover-image">
       <div class="new-div">
         <img class="cover-img" src="image/bg-img.png" />
@@ -59,6 +64,14 @@
         <button class="search-location-button">Search Location</button>
       </div>
     </div>
+    <nav class="navbar-mobi">
+      <div class="navbar-mobi-items">
+        <img src="image/primary.svg" alt="" />
+        <img src="navbar.search.png" alt="" />
+        <img src="navbar.user.svg" alt="" />
+        <img src="navbar.menu.svg" alt="" />
+      </div>
+    </nav>
     <div class="featured-see">
       <p class="featured-locations">featured locations</p>
       <p class="see-all">see all</p>

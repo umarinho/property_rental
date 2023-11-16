@@ -13,6 +13,36 @@
   cursor: pointer;
 }
 
+.btn-outline {
+  font-weight: 600;
+  font-family: Inter;
+  background-color: white;
+  border: 1px;
+  border-radius: 5px;
+  border-color: #072AC8;
+  border-style: solid;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 15px;
+  padding: 11px 30px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  font-weight: 600;
+  font-family: Inter;
+  background-color: #072AC8;
+  border-style: solid;
+  border-color: #072AC8;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 15px;
+  padding: 6px 28px;
+  cursor: pointer;
+}
+
 .signup-button {
   font-weight: 600;
   font-family: Inter;

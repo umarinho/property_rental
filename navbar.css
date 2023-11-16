@@ -1,0 +1,35 @@
+.navbar-mobi {
+  position: fixed;
+  z-index:auto;
+  width: 100%;
+  bottom: 0;
+}
+
+.navbar-mobi-items {
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+  
+}
+
+.main-nav {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .875em 9em;
+  font-family: Inter, Arial;
+}
+
+.nav-item {
+ padding: 1.5em 2em;
+
+}
+
+@media (max-width: 768px) {
+  .main-nav { display: none;}
+}
+
+@media (min-width: 769px) {
+  .navbar-mobi { display: none;}
+}
