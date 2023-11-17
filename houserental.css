@@ -169,7 +169,7 @@ body {
 
 @media (max-width: 752px) {
   .second-image-section {
-    grid-template-columns: 1fr 1fr ;
+    
   }
   }
  
