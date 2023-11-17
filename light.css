@@ -10,6 +10,9 @@
 
 }
 
-.light6 {
-  margin-bottom: 0px;
-}
+@media (max-width: 752px) {
+  .light1, .light2 {
+    display: none;
+  }
+  }
+ 
