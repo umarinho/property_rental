@@ -214,6 +214,7 @@ body {
 @media (max-width: 750px) {
   .third-image-section {
     grid-template-columns: 1fr;
+    
   }
   }
 
@@ -326,5 +327,11 @@ justify-content: space-between;
   .unlock-button, .input-email, .be-the-first-text,
   .search-bar, .search-location-button {
   margin-left: 0.8em ;
+}
+}
+
+@media (max-width: 752px) {
+  .third-image-section1 {
+   margin-right: 0;
 }
 }
