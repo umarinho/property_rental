@@ -34,7 +34,7 @@ color: #1E96FC;
 
 @media (max-width: 752px) {
   .last-section {
-   padding-right: 0.8em;
+    padding-right: 0;
   }
 }
 
