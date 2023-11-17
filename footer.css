@@ -1,20 +1,20 @@
 .text1 {
   display: inline-block;
   font-family: Inter, Arial;
-  font-size: 20px;
+  font-size: 16px;
 color: #1E96FC;
 
 }
 
 .t, .top {
-  padding-bottom: 30px;
-  margin-left: 200px;
+  padding-bottom: 1.875em;
+  margin-left: 12.5em;
   
 }
 .last-section {
-  padding-right: 400px;
-display: flex;
-justify-content: center;
+  padding-right: 25em;
+  display: flex;
+  justify-content: center;
  
 }
 
@@ -25,9 +25,22 @@ justify-content: center;
 
 .last-text {
   font-family: Inter, Arial;
-  font-size: 20px;
+  font-size: 16px;
   display: flex;
   justify-content: center;
-  margin-top: 100px;
-  margin-right: 130px;
+  margin-top: 6.25em;
+  margin-right: 8.125em;
+}
+
+@media (max-width: 752px) {
+  .last-section {
+   padding-right: 0.8em;
+  }
+}
+
+@media (max-width: 752px) {
+  .t, .top {
+   margin-left: 4.5em;
+   margin-right: 4em;
+  }
 }
