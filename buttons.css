@@ -108,15 +108,3 @@
   cursor: pointer;
 }
 
-@media (max-width: 752px) {
-  .list-property-button2 {
-    margin-left: 6.25em ;
-  }
-  }
-
-@media (max-width: 752px) {
-  .unlock-button, .input-email, .be-the-first-text,
-  .search-bar, .search-location-button {
-  margin-left: 0.8em ;
-}
-}

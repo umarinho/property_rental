@@ -2,7 +2,7 @@
   display: inline-block;
   font-family: Inter, Arial;
   font-size: 16px;
-color: #1E96FC;
+  color: #1E96FC;
 
 }
 
@@ -42,11 +42,12 @@ color: #1E96FC;
   .t, .top {
    margin-left: 3em;
    margin-right: 3em;
+   padding-bottom: 1.2em;
   }
 }
 
 @media (max-width: 752px) {
   .last-text {
-   margin: 2em 0 2em 0.5em;
+   margin: 2em 0 1em 0.25em;
   }
 }
